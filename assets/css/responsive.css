@@ -1,0 +1,921 @@
+/*
+Build responsive
+Author: Ryan (Lynh) Nguyen
+*/
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 992px) {
+
+}
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1899px) {
+    .quienes-temp .page-body .section-image img {
+        height: 460px;
+    }
+    .page-body .section-content {
+        padding-top: 60px;
+    }
+    .slider-home .owl-nav {
+        left: 15%;
+    }
+}
+@media screen and (min-width: 1920px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+    .revistas-slider .owl-nav .owl-prev {
+        left: 34%;
+    }
+    .revistas-slider .owl-nav .owl-next {
+        right: 34%;
+    }
+}
+@media screen and (max-width: 1092px) {
+    .office-temp h1, .office-temp h2 {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .somos-content .somos-filter select.form-control, .somos-content .somos-filter input {
+        min-width: 150px;
+        margin-left: 10px;
+    }
+    .somos-content .somos-filter .btn-round {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .somos-content .somos-filter select.form-control, .somos-content .somos-filter input {
+        min-width: 219px;
+    }
+    .somos-content .somos-filter .btn-round {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .header .navbar-nav li {
+        font-size: 14px;
+    }
+    .header .navbar-nav li a {
+        margin: 5px 8px;
+    }
+    .viajes-content .timeline .col-timeline.right::after {
+        left: -10px;
+    }
+    .viajes-content .tab-child .col-timeline::after {
+        background-color: #B22222;
+        border: 5px solid #FFF;
+        top: 115px;
+    }
+    .viajes-content .tab-child .right span {
+        position: absolute;
+        left: -175px;
+        top: 115px;
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    .viajes-content .timeline .col-timeline.right {
+        left: 30%;
+    }
+    .viajes-content .programa-section {
+        margin-top: 0;
+        padding-top: 30px;
+    }
+    .viajes-content .programa-section {
+        padding-bottom: 15px;
+    }
+    .quienes-temp .page-body .section-image img {
+    	height: 475px;
+    }
+    .page-body .section-content {
+    	padding-top: 80px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .post-new-section .post-item .post-bg .post-entry .p-title {
+        font-size: 17px;
+    }
+    .post-new-section .post-item .post-bg .post-entry {
+        padding: 5px 10px;
+    }
+    .footer-form div div:nth-child(2n), .footer-form div div:nth-child(5) {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .header {
+        height: 440px;
+    }
+    .header .page-title h1 {
+        margin-top: 120px;
+    }
+    .main-contain {
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 1366px) {
+	.eventos-content .eventos-ports .post-ctn img {
+		width: auto;
+		height: 255px;
+		max-width: none;
+	}
+}
+@media screen and (max-width: 991px) {
+    .slider-home .owl-nav {
+        bottom: 33%;
+        left: 14%;
+    }
+    .eventos-content .eventos-ports .post-ctn img {
+        height: 140px;
+        width: 100%;
+    }
+    .plan {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        background-size: cover !important;
+    }
+    .header-home .container {
+        width: 100%;
+    }
+    .main-menu {
+        min-height: 0;
+    }
+    .slider-home .sld-ctn .sld-info h1 {
+        font-size: 24px
+    }
+    .slider-home .sld-ctn .sld-info p {
+        font-size: 14px
+    }
+    .slider-home .owl-nav {
+        bottom: 23%
+    }
+    .slider-home .owl-nav {
+        width: 30px;
+    }
+    .slider-home .owl-nav .owl-prev,
+    .slider-home .owl-nav .owl-next {
+        width: 26px;
+        height: 26px;
+        border: 2px solid #fff;
+    }
+    .slider-home .owl-nav .btn-nav i {
+        font-size: 20px;
+    }
+    .post-new-section h3.title,
+    .journals-section .title {
+        font-size: 22px;
+    }
+    .post-new-section .post-item .post-bg .post-entry .p-cat {
+        font-size: 12px;
+        padding: 2px 12px;
+    }
+    .post-new-section .post-item .post-bg .post-entry .p-title {
+        font-size: 18px;
+    }
+    .post-new-section .post-item .post-bg .post-entry .p-date {
+        font-size: 11px;
+    }
+
+    .owl-item .journals-info .jo-name,
+    .owl-item .journals-info .btn-round {
+        font-size: 16px;
+    }
+    .owl-item .journals-info .jo-number {
+        font-size: 28px;
+    }
+
+    .journals-slider .owl-nav .owl-next {
+        right: 5%;
+    }
+    .journals-slider .owl-nav .owl-prev {
+        left: 5%;
+    }
+
+    .revistas-slider .owl-nav .owl-prev {
+        left: 20%;
+    }
+    .revistas-slider .owl-nav .owl-next {
+        right: 20%;
+    }
+    .interior-content .inter-ct-left .revi-about {
+        display: flex;
+        margin-bottom: 35px;
+    }
+    .interior-content .inter-ct-left .revi-about-info {
+        margin-left: 15px;
+    }
+    .revistas-statistics {
+        background-position: 73% 100%;
+    }
+    .revistas-statistics .revi-statistics-box .title {
+        width: 90%;
+    }
+
+    .header .page-title h1 {
+        font-size: 24px;
+    }
+    .banner {
+        padding: 100px 0 0;
+    }
+    .banner .banner-marker img {
+        width: 55px;
+    }
+    .banner .banner-content .banner-text-1 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    .banner .banner-content .banner-text-2 {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .banner .banner-content .banner-box {
+        font-size: 16px;
+        line-height: 1.4;
+        margin-top: 66px;
+    }
+    .banner .banner-content .banner-box .banner-info i {
+        font-size: 20px;
+    }
+    .programa-section {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .programa-section .page-title {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .programa-section .nav.flex-center-colum {
+        display: inline-block;
+        width: 100%;
+    }
+    .programa-section .nav li {
+        width: 100%;
+        text-align: center;
+    }
+    .programa-section .nav li a {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .programa-section .timeline::after {
+        left: 0;
+    }
+    .programa-section .nav {
+        margin-bottom: 30px;
+    }
+    .timeline .col-timeline.left::before {
+        left: 30px;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #f7f7f7 transparent transparent;
+    }
+    .timeline .col-timeline::after {
+        left: -11px;
+    }
+    .timeline .col-timeline {
+        width: 100%
+    }
+    .timeline .col-timeline.left,
+    .timeline .col-timeline.right {
+        left: 0;
+    }
+    .timeline .col-timeline .content i {
+        font-size: 14px;
+        margin-right: 7px;
+        color: #0D70EB;
+    }
+    .timeline .col-timeline .content .ctn-right .time {
+        font-size: 16px;
+        line-height: 30px;
+        margin: 0;
+    }
+    .timeline .col-timeline .content .ctn-right .title {
+        font-size: 16px;
+        line-height: 20px
+    }
+    .ponentes-section {
+        padding: 35px 0 0;
+    }
+    .ponentes-section .flex-wrap-center-colum .col-xs-6 {
+        margin-bottom: 25px;
+    }
+    .ponentes-section .title {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+    .ponentes-section img {
+        margin: 15px auto 10px;
+    }
+    .ponentes-section .name {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 7px;
+    }
+    .ponentes-section .txt {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .eventos-temp .page-intro {
+        padding-top: 30px;
+    }
+    .eventos-temp .hightline {
+        font-size: 16px;
+    }
+    .eventos-temp .hightline:after {
+        margin-top: 10px;
+    }
+    .eventos-temp .plan ul {
+        margin: 0;
+    }
+    .eventos-content .eventos-filter .btn-round {
+        float: left;
+        margin: 0 25px 0 0;
+    }
+    .eventos-content .eventos-filter select.form-control {
+        margin-left: 0;
+    }
+    .eventos-content .eventos-ports {
+        display: inline-block;
+    }
+    .eventos-content .eventos-ports .col-sm-4 {
+        padding: 0 15px 20px;
+    }
+    .eventos-content .eventos-ports .post-ctn img {
+        height: 140px;
+        width: auto;
+    }
+    .eventos-content .eventos-ports .btn-load-more-ajax {
+        text-align: center;
+    }
+
+    .footer-form div div:nth-child(2n), .footer-form div div:nth-child(5) {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-collapse {
+        padding: 0;
+    }
+    .header .navbar-nav li a {
+        margin: 15px 4px;
+        display: inline-block;
+    }
+    .page-body .section-content {
+        width: 100%;
+        padding-top: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
+        padding: 0 15px;
+        text-align: left;
+    }
+    .page-body .section-content.section-left {
+        float: right;
+        margin-right: 0;
+    }
+    .quienes-temp .contact .contact-content {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    .revistas-temp .section-image img {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+    .revistas-temp .section-item {
+        height: auto;
+    }
+    .revistas-temp .page-body .section-content {
+        margin-left: 0;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .page-body .section-content h2:after {
+        margin: 10px 0;
+    }
+    .revistas-temp .page-body .section-content h2:after, .revistas-temp .page-body .section-content a {
+        margin: 20px auto;
+    }
+    .revistas-temp .color-block .section-item .section-image img {
+        float: none;
+        margin-left: auto;
+    }
+    .page-body .section-content {
+        width: 100%;
+    }
+    .viajes-content .somos .somos-item img {
+    	width: 100%;
+        height: auto;
+    }
+    .viajes-content .tab-child .right > span {
+        display: none;
+    }
+    .viajes-content .tab-child .timeline .col-timeline.right {
+        left: 0;
+        width: 100%;
+    }
+    .viajes-content .tab-child .timeline::after {
+        left: 0;
+    }
+    .viajes-content .tab-child .col-timeline::after {
+        top: 100px;
+    }
+    .viajes-content .tab-child .col-timeline.right .content > span {
+        display: block;
+        color: #b22222; 
+        font-size: 20px;    
+        font-weight: bold;  
+        line-height: 30px;
+    }
+    .viajes-content .programa-section {
+        padding-bottom: 15px;
+    }
+
+    .banner img {
+        margin: 0 auto;
+    }
+    .banner .banner-content .banner-box {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .banner .banner-content .banner-box:first-of-type {
+        padding-bottom: 10px;
+    }
+    .banner .banner-content .banner-box:last-of-type {
+        margin: 0;
+        padding-top: 10px;
+    }
+    .noticias-section .noticias-item {
+        margin-bottom: 45px;
+    }
+    .noticias-section .noticias-item:last-of-type {
+        margin-bottom: 0;
+    }
+    .evento-owl .evento-owl-carousel {
+        position: relative;
+    }
+    .evento-owl .evento-owl-carousel .owl-nav {
+        position: absolute;
+        top: calc(50% - 14px);
+        margin: 0;
+        width: 100%
+    }
+    .evento-owl .evento-owl-carousel .owl-nav i {
+        color: #1b1b1b;
+        font-size: 20px
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-prev,
+    .evento-owl .evento-owl-carousel .owl-nav .owl-next {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 1px solid #1b1b1b;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-prev {
+        position: absolute;
+        left: 3%
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-next {
+        position: absolute;
+        right: 3%
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-prev:hover,
+    .evento-owl .evento-owl-carousel .owl-nav .owl-next:hover {
+        background-color: #869791
+    }
+    .interior-content {
+        padding-top: 33px;
+        padding-bottom: 33px;
+    }
+    .interior-content .inter-meta,
+    .interior-content .inter-meta .inter-cat,
+    .interior-content .inter-meta .date {
+        font-size: 10px;
+    }
+    .interior-content .inter-meta {
+        margin-bottom: 5px;
+    }
+    .interior-content .inter-title h2 {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+    .interior-content.inter-thumb {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .interior-content .inter-thumb img {
+        margin-bottom: 30px;
+    }
+    .inter-content p,
+    .inter-content blockquote{
+        margin-bottom: 25px;
+    }
+    .inter-content blockquote {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .interior-content .inter-tab {
+        margin: 50px 0 35px;
+        padding: 0;
+        border: 0;
+    }
+    .interior-content .noticias-section {
+        padding: 31px 0;
+    }
+    .noticias-section h3.title {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 31px;
+    }
+    .noticias-section .noticias-item .p-cat {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .noticias-section .noticias-item .p-title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .evento-owl {
+        padding: 40px 0 60px;
+    }
+    .evento-owl h3.title {
+        margin-bottom: 33px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-prev {
+        left: 0
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-next {
+        right: 0
+    }
+    header .btn-menu {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .actualidad-temp .eventos-content {
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+    .actualidad-temp .post-new-section {
+        padding-top: 33px;
+    }
+    .actualidad-temp .eventos-content .btn-load-more-ajax a {
+        margin: 15px 0 0;
+    }
+    .actualidad-temp .eventos-content .eventos-filter label {
+        display: none
+    }
+    .actualidad-temp .eventos-content .eventos-filter select.form-control {
+        margin-top: 10px;
+        display: inline-block;
+    }
+    .actualidad-interior-single .header {
+        padding-top: 20px;
+        height: 80px;
+    }
+    .interior-content .inter-contact-info .clearfix {
+        display: none;
+    }
+    .post-new-section .post-lists {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .actualidad-temp .actualidad.post-new-section {
+        padding-top: 66px;
+        padding-bottom: 40px;
+    }
+    .actualidad-temp .post-new-section .post-lists {
+        padding: 0;
+    }
+    .post-lists > h2 {
+        font-size: 22px;
+    }
+    .footer {
+        overflow: hidden;
+    }
+    .footer-form input[type="submit"] {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .footer .ads {
+        margin-top: 140px;
+        margin-bottom: 0;
+        margin-left: -15px;
+        padding-left: 0;
+        margin-right: -15px;
+        padding-right: 0px;
+        width: 105%;
+    }
+    .post-new-section {
+        padding-bottom: 0;
+    }
+    .somos .somos-item img {
+        margin: 0;
+    }
+    .somos .somos-item .item-content {
+        width: 95%;
+        float: right;
+        margin-bottom: 50px;
+    }
+    .quienes-temp .page-body .section-image img {
+        height: auto;
+        width: 100%;
+    }
+    .footer-link ul {
+        padding-left: 0;
+    }
+    .footer {
+    	padding-top: 50px;
+    }
+    .main-contain {
+    	margin-bottom: 50px;
+    }
+    .microsite-evento-template .footer-text {
+    	margin-top: 30px;
+    }
+    .quienes-temp .contact #map img {
+    	width: 100%;
+    	height: auto;
+    	margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 639px) {
+	.factoria-temp .page-content .page-body h2 {
+		max-width: 100%;
+	}
+    .eventos-content .eventos-ports .post-ctn img {
+        width: 100%;
+        height: auto;
+    }
+    .slider-home .sld-ctn {
+        display: flex;
+        height: 450px;
+    }
+    .interior-content .inter-tab .btn-round.red {
+        display: table;
+    }
+    .plan {
+        margin-top: 30px;
+    }
+    .main-menu {
+        background: #fff;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+
+    }
+    .header .navbar-nav li {
+        text-align: center;
+        font-size: 19px;
+        padding-bottom: 5px;
+    }
+    .header .navbar-nav li a {
+        color: #000;
+    }
+    .header .navbar-nav li a:hover, .header .navbar-nav li.active a {
+        border-bottom: 3px solid #ccc;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .post-new-section .post-item .post-bg .post-entry .p-name {
+        display: inline-block;
+        padding-right: 5px;
+    }
+    .journals-slider .owl-nav {
+        top: 25%;
+    }
+    .journals-slider .owl-nav .owl-prev, .journals-slider .owl-nav .owl-next {
+        width: 45px;
+        height: 45px;
+    }
+    .journals-slider.owl-theme .owl-nav [class*=owl-] {
+        font-size: 28px;
+    }
+    .footer-link ul li a {
+        color: #979797;
+        font-size: 13px;
+        line-height: 19px;
+        text-align: left;
+        padding: 0;
+        padding-right: 10px;
+    }
+    .footer-link ul li:last-child a {
+        padding-right: 0;
+    }
+    .copyright p {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 579px) {
+    .owl-item.center .journals-info {
+        margin-top: 24px;
+    }
+    .interior-content .inter-files-attach .flie {
+        width: 100%;
+        margin: 0 0 40px;
+    }
+    .plan {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 449px) {
+	.quienes-temp .page-body .section-image img {
+		height: auto;
+	}
+    .slider-home .sld-ctn .sld-info {
+        bottom: 30px;
+    }
+    .slider-home .owl-nav {
+        bottom: 30%;
+    }
+    .owl-item .journals-img img {
+        min-height: 1px;
+    }
+    .revistas-slider .owl-nav .owl-prev {
+        left: 10%;
+    }
+    .revistas-slider .owl-nav .owl-next {
+        right: 10%;
+    }
+    .page-body .section-content {
+        padding-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+    .page-body .section-content.section-left {
+        float: none;
+        margin-right: 0;
+    }
+    .plan {
+        margin-top: 30px;
+    }
+    .somos .somos-item .item-content {
+        width: 80%;
+        background: #fff;
+        margin-top: -50px;
+        position: relative;
+        z-index: 1;
+        padding: 15px 20px;
+        text-align: left;
+        float: right;
+        margin-bottom: 30px;
+    }
+    .slider-home .sld-ctn .sld-info p {
+        display: none;
+    }
+    .slider-home .sld-ctn {
+        height: 350px;
+        overflow: hidden;
+    }
+    .slider-home .sld-ctn .sld-info h1:after {
+        display: none;
+    }
+    .slider-home .sld-ctn .sld-info {
+        bottom: 0;
+    }
+    .slider-home .owl-nav {
+        bottom: 35%;
+    }
+    .mobile-item {
+        display: block;
+        padding: 20px 15px;
+    }
+    .slider-home .sld-ctn .sld-info h1 {
+        padding: 0;
+    }
+    .slider-home .owl-nav .owl-prev, .slider-home .owl-nav .owl-next {
+        margin: 5px 0;
+    }
+    .somos-content .somos-filter select.form-control, .somos-content .somos-filter input {
+        width: 90%;
+        margin: 5px auto;
+    }
+    .header.header-home{
+        height: 370px;
+    }
+
+    .office-temp .post-lists {
+        padding: 15px;
+    }
+    .somos-content .form-group i {
+        font-size: 20px;
+        position: absolute;
+        top: 150px;
+        right: 25px;
+    }
+    .navbar-toggle .icon-bar {
+        width: 25px;
+    }
+    .navbar-toggle .icon-bar:nth-child(2) {
+        width: 20px;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 6px;
+    }
+    .footer-content p {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .page-body .section-content {
+        padding-top: 20px;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .page-body .section-content.section-left {
+        float: none;
+        margin-right: 0;
+    }
+    .plan {
+        margin-top: 30px;
+    }
+    .header, .header.header-home {
+        height: 500px;
+    }
+    .home-temp .post-new-section {
+        padding-top: 0;
+    }
+    .header .page-title h1 {
+        margin-top: 100px;
+    }
+    .navbar-collapse {
+        padding: 0 15px;
+    }
+
+    .quienes-temp .page-body .section-image img {
+        width: auto;
+        max-width: 100%;
+    }
+    .eventos-content .eventos-filter .btn-round {
+        margin-right: 5px;
+        padding: 6px 7px;
+    }
+    .eventos-content .eventos-ports {
+        padding-top: 30px;
+    }
+    .viajes-content .timeline .col-timeline {
+        padding-left: 40px;
+    }
+    .viajes-content .tab-child .col-timeline::after {
+        top: 210px;
+    }
+    .viajes-content .timeline .col-timeline.left::after, .viajes-content .timeline .col-timeline.right::after {
+        left: -10px;
+    }
+    .viajes-content .programa-section {
+        padding-bottom: 15px;
+    }
+    .viajes-content .tab-child .timeline::after {
+        top: 210px;
+    }
+    .somos .somos-item img {
+    	width: 100%;
+    	height: 100%;
+    }
+    .hightline:after {
+    	width: 100%;
+    }
+}
+@media screen and (max-width: 359px) {
+    .journals-slider .owl-nav {
+        top: 20%;
+    }
+    .revistas-slider .owl-nav {
+        top: 42%;
+    }
+    .interior-content .inter-ct-left .revi-about img {
+        width: 154px;
+        height: 154px;
+    }
+    .page-body .section-content {
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+    .page-body .section-content.section-left {
+        float: none;
+        margin-right: 0;
+    }
+    .plan {
+        margin-top: 30px;
+    }
+}
